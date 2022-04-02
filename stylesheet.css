@@ -1,0 +1,152 @@
+/* 演習に必要な設定（消さないでください） */
+body,
+h1,
+h2,
+p,
+form,
+input,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 設定ここまで */
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.top-img {
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+header {
+    background-color: #ec654f;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0px 40px;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.logo-icon {
+    width: 80px;
+}
+
+.logo-text {
+    width: 130px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-list a {
+    color: #ffffff;
+    display: block;
+    padding: 16px 24px;
+}
+
+.menu-list a:hover {
+    background-color: #ff7b65;
+}
+
+.menu-icon {
+    display: none;
+}
+
+main {
+    margin-left: 200px;
+    padding: 40px 40px 0px 40px;
+}
+
+.news-wrapper {
+    margin-bottom: 32px;
+}
+
+.news {
+    color: #000000;
+    display: flex;
+}
+
+p {
+    font-size: 18px;
+}
+
+.news-category {
+    color: #ec654f;
+    margin-right: 20px;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+.recipe-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.recipe {
+    color: #000000;
+    display: block;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.cooking-time {
+    color: #808080;
+    display: flex;
+}
+
+.cooking-time span {
+    margin-right: 8px;
+}
+
+.recipe:hover {
+    border: 2px solid #ec654f;
+}
+
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(315px,auto));
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.blog-logo{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.blog-container a{
+    margin-top: 24px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 40px;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.blog-container a:hover{
+    background-color: #808080;
+}
